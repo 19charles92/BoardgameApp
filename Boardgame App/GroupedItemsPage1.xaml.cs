@@ -12,17 +12,16 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Items Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234233
+// The Grouped Items Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234231
 
 namespace Boardgame_App
 {
     /// <summary>
-    /// A page that displays a collection of item previews.  In the Split Application this page
-    /// is used to display and select one of the available groups.
+    /// A page that displays a grouped collection of items.
     /// </summary>
-    public sealed partial class MainPage : Boardgame_App.Common.LayoutAwarePage
+    public sealed partial class GroupedItemsPage1 : Boardgame_App.Common.LayoutAwarePage
     {
-        public MainPage()
+        public GroupedItemsPage1()
         {
             this.InitializeComponent();
         }
@@ -38,12 +37,7 @@ namespace Boardgame_App
         /// session.  This will be null the first time a page is visited.</param>
         protected override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
-            // TODO: Assign a bindable collection of items to this.DefaultViewModel["Items"]
-        }
-
-        private void itemGridView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
+            // TODO: Assign a collection of bindable groups to this.DefaultViewModel["Groups"]
         }
     }
 }

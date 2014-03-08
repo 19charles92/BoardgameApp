@@ -34,7 +34,7 @@
         </Grid.RowDefinitions>
 
         <!-- Horizontal scrolling grid used in most view states -->
-        <GridView
+        <GridView x:ConnectionId='1'
             x:Name="itemGridView"
             AutomationProperties.AutomationId="ItemsGridView"
             AutomationProperties.Name="Items"
@@ -44,7 +44,7 @@
             ItemsSource="{Binding Source={StaticResource itemsViewSource}}"
             ItemTemplate="{StaticResource Standard250x250ItemTemplate}"
             SelectionMode="None"
-            IsSwipeEnabled="false" SelectionChanged="itemGridView_SelectionChanged"/>
+            IsSwipeEnabled="false"                                                 />
 
         <!-- Vertical scrolling list only used when snapped -->
         <ListView
@@ -69,17 +69,13 @@
             </Grid.ColumnDefinitions>
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" IsHitTestVisible="True" Style="{StaticResource PageHeaderTextStyle}" Margin="83,0,-53,40"/>
         </Grid>
-       
+        
+        <StackPanel Grid.Row="1">
+            <TextBlock x:Name="pageTitles" Grid.Column="1" Text="{StaticResource Test}" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}"/>
+        </StackPanel>
 
         <StackPanel Grid.Row="1">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <TextBlock x:Name="pageTitless" Text="{StaticResource Test}" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}" HorizontalAlignment="Center" Height="35" VerticalAlignment="Top" Foreground="#DEFFFFFF"/>
-                <TextBlock x:Name="pageTitle3s" Grid.Column="1" Text="{StaticResource Test}" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}" HorizontalAlignment="Center" Height="35" VerticalAlignment="Top" Foreground="#DEFFFFFF"/>
-            </Grid>
+            <Rectangle Width="300" Height="203" Fill="Red" Margin="533,0" />
         </StackPanel>
 
         <VisualStateManager.VisualStateGroups>
@@ -126,3 +122,4 @@
         </VisualStateManager.VisualStateGroups>
     </Grid>
 </common:LayoutAwarePage>
+

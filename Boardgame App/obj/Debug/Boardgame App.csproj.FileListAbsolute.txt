@@ -1,0 +1,30 @@
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\bin\Debug\Boardgame App.exe
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\bin\Debug\Boardgame App.pdb
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\bin\Debug\resources.pri
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\bin\Debug\AppxManifest.xml
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\bin\Debug\Boardgame App.build.appxrecipe
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\App.g.i.cs
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\App.g.cs
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\MainPage.g.i.cs
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\MainPage.g.cs
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\App.xaml
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\MainPage.xaml
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\Boardgame App.exe
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\Boardgame App.pdb
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\priconfig.xml.intermediate
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\layout.resfiles.intermediate
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\resources.resfiles.intermediate
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\pri.resfiles.intermediate
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\priconfig.xml
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\layout.resfiles
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\resources.resfiles
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\pri.resfiles
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\LanguageQualifiers.txt
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\ProjectArchitectures.txt
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\GroupedItemsPage1.g.i.cs
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\GroupedItemsPage1.g.cs
+C:\Users\Charles\Documents\Visual Studio 2012\Projects\BoardgameApp\Boardgame App\obj\Debug\GroupedItemsPage1.xaml
