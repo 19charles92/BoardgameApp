@@ -46,6 +46,18 @@
             SelectionMode="None"
             IsSwipeEnabled="false" SelectionChanged="itemGridView_SelectionChanged"/>
 
+        <GridView
+            x:Name="mainGrid"
+            AutomationProperties.AutomationId="ItemsGridView"
+            AutomationProperties.Name="Items"
+            TabIndex="1"
+            Grid.RowSpan="2"
+            Padding="116,136,116,46"
+            ItemsSource="{Binding Source={StaticResource itemsViewSource}}"
+            ItemTemplate="{StaticResource Standard250x250ItemTemplate}"
+            SelectionMode="None"
+            IsSwipeEnabled="false" SelectionChanged="itemGridView_SelectionChanged"/>
+
         <!-- Vertical scrolling list only used when snapped -->
         <ListView
             x:Name="itemListView"
@@ -71,7 +83,7 @@
         </Grid>
        
 
-        <StackPanel Grid.Row="1">
+        <Grid Grid.Row="1">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
@@ -80,7 +92,7 @@
                 <TextBlock x:Name="pageTitless" Text="{StaticResource Test}" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}" HorizontalAlignment="Center" Height="35" VerticalAlignment="Top" Foreground="#DEFFFFFF"/>
                 <TextBlock x:Name="pageTitle3s" Grid.Column="1" Text="{StaticResource Test}" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}" HorizontalAlignment="Center" Height="35" VerticalAlignment="Top" Foreground="#DEFFFFFF"/>
             </Grid>
-        </StackPanel>
+        </Grid>
 
         <VisualStateManager.VisualStateGroups>
 
